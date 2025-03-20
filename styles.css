@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./images/mario.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+   
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    color: white;
+    padding: 100px;
+}
+
+.container {
+    margin-top: 200px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 20px;
+    width: 400px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #D7A621;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #b88e1c;
+}
+
+#listAllButton {
+    margin-top: 20px;
+}
+
+#listAllButton:hover {
+    background-color: #b88e1c;
+}
+
+#cardsContainer {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #B61219;
+    border: 1px solid #B61219;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* estilização do modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #B61219;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal-content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-content ul li {
+    font-size: 14px;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+}
