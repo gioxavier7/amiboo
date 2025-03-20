@@ -55,6 +55,14 @@ button:hover {
     background-color: #b88e1c;
 }
 
+#listAllButton {
+    margin-top: 20px;
+}
+
+#listAllButton:hover {
+    background-color: #b88e1c;
+}
+
 #cardsContainer {
     padding: 30px;
     display: flex;
