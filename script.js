@@ -1,6 +1,5 @@
 'use strict'
 
-// document.addEventListener('DOMContentLoaded', () => {
     // criação da tela inicial
     const app = document.getElementById('app')
 
@@ -190,4 +189,3 @@
 
     // exibe o botão listar Todos na tela inicial
     listAllButton.style.display = 'block'
-// });
